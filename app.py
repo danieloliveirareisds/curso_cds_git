@@ -3,6 +3,7 @@ from src.extraction import load_data
 
 st.set_page_config(layout='wide')
 
+
 def main():
     df_raw = load_data()
 
