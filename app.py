@@ -1,7 +1,9 @@
 import pandas as pd
 import streamlit as st
 import src.answers as asw
+import numpy as np
 from src.extraction import load_data
+
 
 st.set_page_config(layout="wide")
 
